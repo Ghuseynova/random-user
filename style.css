@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #375e97;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.container {
+    margin: 50px auto;
+    padding-top: 20px;
+    width: 500px;
+    background-color: #ffbb00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.user {
+    display: flex;
+}
+
+.user-img {
+    width: 150px;
+    height: 150px;
+}
+
+img {
+    max-width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 50%;
+}
+
+.user-info {
+    margin: 15px 0 0 20px;
+}
+
+.user-fullname {
+    font-size: 24px;
+    color: #3f681c;
+}
+
+.user-username {
+    padding-top: 5px;
+    color: #fb6542;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.user-email,
+.user-location {
+    padding-top: 35px;
+    padding-bottom: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.user-location {
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    padding: 14px 0 14px 0;
+    font-size: 24px;
+    background-color: #3f681c;
+    border-radius: 0 0 10px 10px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
